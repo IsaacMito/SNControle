@@ -1,10 +1,12 @@
 mat-toolbar {
     justify-content: space-between;
+    height: 44px;
     background-color: white;
     border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
 }
 
 .title {
-    font-size: 0.9em;
+    font-size: 0.7em;
     font-weight: 400;
+    font-style: italic;
 }

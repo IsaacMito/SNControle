@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { HeaderService } from 'src/app/services/header.service';
 
 @Component({
@@ -8,10 +9,13 @@ import { HeaderService } from 'src/app/services/header.service';
 })
 export class MeuEspacoComponent implements OnInit {
 
-  constructor(private headerService:HeaderService) { }
+  constructor(private headerService:HeaderService, private router:Router) { }
 
   ngOnInit(): void {
-    this.headerService.setTitle("Meu espaço")
+    this.headerService.setTitle("Meu espaço");
   }
 
+  modulos():void {
+    this.router.navigateByUrl("modulos");
+  }
 }

@@ -20,6 +20,7 @@ import { RankProdutoComponent } from './components/view/meu-espaco/rank-produto/
 import { ConfTransPendComponent } from './components/view/meu-espaco/conf-trans-pend/conf-trans-pend.component';
 import { TransPendComponent } from './components/view/meu-espaco/trans-pend/trans-pend.component';
 import { MatTableModule } from '@angular/material/table';
+import { MenuComponent } from './modulos/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { MatTableModule } from '@angular/material/table';
     ConfCegaPendComponent,
     RankProdutoComponent,
     ConfTransPendComponent,
-    TransPendComponent
+    TransPendComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

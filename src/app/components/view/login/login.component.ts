@@ -18,6 +18,7 @@ export class LoginComponent implements OnInit {
   }
 
   entrar(): void {
+    console.log(this.activeTab)
     this.router.navigateByUrl("meu-espaco")
   }
 
