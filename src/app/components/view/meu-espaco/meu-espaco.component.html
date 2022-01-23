@@ -1,5 +1,19 @@
-<mat-card>
-    <mat-card-subtitle>
-        Meu espaço
-    </mat-card-subtitle>
-</mat-card>
+<div>
+    <button mat-stroked-button class="space">
+        Modulos do Sistema
+    </button>
+    <mat-grid-list cols="2" rowHeight="50%">
+        <mat-grid-tile>
+            <app-conf-cega-pend></app-conf-cega-pend>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <app-rank-produto></app-rank-produto>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <app-conf-trans-pend></app-conf-trans-pend>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <app-trans-pend></app-trans-pend>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>

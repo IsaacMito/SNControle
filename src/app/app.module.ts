@@ -13,6 +13,13 @@ import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MeuEspacoComponent } from './components/view/meu-espaco/meu-espaco.component';
+import { MatIconModule } from '@angular/material/icon';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { ConfCegaPendComponent } from './components/view/meu-espaco/conf-cega-pend/conf-cega-pend.component';
+import { RankProdutoComponent } from './components/view/meu-espaco/rank-produto/rank-produto.component';
+import { ConfTransPendComponent } from './components/view/meu-espaco/conf-trans-pend/conf-trans-pend.component';
+import { TransPendComponent } from './components/view/meu-espaco/trans-pend/trans-pend.component';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -20,6 +27,10 @@ import { MeuEspacoComponent } from './components/view/meu-espaco/meu-espaco.comp
     HeaderComponent,
     LoginComponent,
     MeuEspacoComponent,
+    ConfCegaPendComponent,
+    RankProdutoComponent,
+    ConfTransPendComponent,
+    TransPendComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +41,10 @@ import { MeuEspacoComponent } from './components/view/meu-espaco/meu-espaco.comp
     MatFormFieldModule,
     MatInputModule,
     MatButtonModule,
-    MatTabsModule
+    MatTabsModule,
+    MatIconModule,
+    MatGridListModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,3 +1,21 @@
 <mat-toolbar>
     <span>SNControle</span>
+    <span class="title">{{title}}
+    </span>
+    <span>
+        <button mat-icon-button *ngIf="enable">
+            <mat-icon>chevron_left</mat-icon>
+        </button>
+        <button mat-icon-button *ngIf="enable">
+            <mat-icon>chevron_right</mat-icon>
+        </button>
+
+        <button mat-icon-button *ngIf="enable">
+            <mat-icon>key</mat-icon>
+        </button>
+
+        <button mat-icon-button *ngIf="enable">
+            <mat-icon>logout</mat-icon>
+        </button>
+    </span>
 </mat-toolbar>
