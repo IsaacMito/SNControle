@@ -21,6 +21,7 @@ import { ConfTransPendComponent } from './components/view/meu-espaco/conf-trans-
 import { TransPendComponent } from './components/view/meu-espaco/trans-pend/trans-pend.component';
 import { MatTableModule } from '@angular/material/table';
 import { MenuComponent } from './modulos/menu/menu.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,9 @@ import { MenuComponent } from './modulos/menu/menu.component';
     MatTabsModule,
     MatIconModule,
     MatGridListModule,
-    MatTableModule
+    MatTableModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
