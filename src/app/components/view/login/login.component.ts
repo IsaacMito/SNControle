@@ -44,9 +44,8 @@ export class LoginComponent implements OnInit {
   }
 
   entrar(): void {
-    console.log(this.activeTab)
-
     if(this.validaTela()) {
+      console.log(this.activeTab.includes("C"))
       if (this.checkoutForm.value.usuario == 1 && this.checkoutForm.value.senha == "Digala123") {
         this.router.navigateByUrl("meu-espaco")
       } else {
